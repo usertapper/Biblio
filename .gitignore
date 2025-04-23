@@ -1,0 +1,11 @@
+# Fichiers compilés
+*.EXE
+*.WDK
+*.WDD
+*.TDS
+*.NDX
+
+# Répertoires à ne pas suivre
+\EXE\
+\BACKUP\
+\LOG\

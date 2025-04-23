@@ -1,0 +1,17 @@
+//MO000-001.TXT ANA00000 TO ANA00001
+Appartenir		NFI		nouveau fichier
+Auteur		NFI		nouveau fichier
+Ecrire		NFI		nouveau fichier
+Emprunt		NFI		nouveau fichier
+Exemplaire		NFI		nouveau fichier
+Genre		NFI		nouveau fichier
+Lecteur		NFI		nouveau fichier
+Ouvrage		NFI		nouveau fichier
+Appartenir_ibfk_1		NWL	Ouvrage (No_O) et Appartenir (No_O)	Nouvelle liaison entre les fichiers Ouvrage (No_O) et Appartenir (No_O)
+Appartenir_ibfk_2		NWL	Genre (Code_G) et Appartenir (Code_G)	Nouvelle liaison entre les fichiers Genre (Code_G) et Appartenir (Code_G)
+Ecrire_ibfk_1		NWL	Ouvrage (No_O) et Ecrire (No_O)	Nouvelle liaison entre les fichiers Ouvrage (No_O) et Ecrire (No_O)
+Ecrire_ibfk_2		NWL	Auteur (No_A) et Ecrire (No_A)	Nouvelle liaison entre les fichiers Auteur (No_A) et Ecrire (No_A)
+Emprunt_ibfk_1		NWL	Lecteur (No_L) et Emprunt (No_L)	Nouvelle liaison entre les fichiers Lecteur (No_L) et Emprunt (No_L)
+Emprunt_ibfk_2		NWL	Exemplaire (No_Ex) et Emprunt (No_Ex)	Nouvelle liaison entre les fichiers Exemplaire (No_Ex) et Emprunt (No_Ex)
+Exemplaire_ibfk_1		NWL	Ouvrage (No_O) et Exemplaire (No_O)	Nouvelle liaison entre les fichiers Ouvrage (No_O) et Exemplaire (No_O)
+mariadb		CNX+		
